@@ -133,7 +133,7 @@ Thanks to @jugendhacker you can get minosoft directly from the arch user reposit
 
 ## Code mirrors
 
-- [gitlab.bixilon.de](https://gitlab.bixilon.de/bixilon/minosoft/) (Main repository)
+- [gitlab.bixilon.de](https://gitlab.bixilon.de/bixilon/minosoft/) (dev.polv.example.Main repository)
 - [GitLab](https://gitlab.com/Bixilon/minosoft)
 - [GitHub](https://github.com/Bixilon/Minosoft/?ref=gitlab.bixilon.de)
 

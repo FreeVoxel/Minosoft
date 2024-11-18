@@ -53,7 +53,6 @@ plugins {
     id("org.ajoberstar.grgit.service") version "5.3.0"
     id("com.github.ben-manes.versions") version "0.51.0"
 }
-
 fun getProperty(name: String): String {
     val value = property(name) ?: throw NullPointerException("Can not find $name property")
     return value.toString()
@@ -508,12 +507,12 @@ tasks.getByName("processResources") {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "11"
+    kotlinOptions.jvmTarget = "21"
     kotlinOptions.languageVersion = "2.0"
     kotlinOptions { freeCompilerArgs += "-Xskip-prerelease-check"; freeCompilerArgs += "-Xallow-unstable-dependencies" }
 }
@@ -593,3 +592,4 @@ task("upload") {
         if (response.statusCode() != 200) throw IOException("Could not upload: $response")
     }
 }
+

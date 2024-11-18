@@ -1,6 +1,6 @@
 # General GUI idea
 
-## 2 Main GUI types
+## 2 dev.polv.example.Main GUI types
 
 - Blocking/GUI (with mouse and keyboard interaction)
   - Inventories
